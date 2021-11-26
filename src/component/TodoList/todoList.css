@@ -8,8 +8,6 @@
   border-left-style: solid;
   border-left-width: 15px;
   box-shadow: 0px 0px 5px 1px #aaaaaa;
-  display: flex;
-  justify-content: space-between;
   margin-top: 10px;
   text-align: left;
 }
@@ -28,4 +26,21 @@
   height: 35px;
   width: 35px;
   cursor: pointer;
+}
+
+.inputStyle1 {
+  margin-inline: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-width: 0px;
+  box-shadow: -2px 2px 8px 2px #aaaaaa;
+  border-radius: 5px;
+}
+
+.editStyle {
+  background-color: rgb(1, 85, 1);
+  color: white;
+  border-style: none;
+  box-shadow: -2px 2px 8px 2px #aaaaaa;
+  border-radius: 5px;
 }
